@@ -63,12 +63,12 @@ dataset_info:
     - name: invalid
       dtype: bool
   splits:
-  - name: test
-    num_bytes: 3761103
-    num_examples: 16097
   - name: train
     num_bytes: 12049881
     num_examples: 12880
+  - name: test
+    num_bytes: 3761103
+    num_examples: 16097
   - name: validation
     num_bytes: 2998735
     num_examples: 3226
