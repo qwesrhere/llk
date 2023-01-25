@@ -32,34 +32,34 @@ dataset_info:
       dtype:
         class_label:
           names:
-            0: clear
-            1: normal
-            2: heavy
+            '0': clear
+            '1': normal
+            '2': heavy
     - name: expression
       dtype:
         class_label:
           names:
-            0: typical
-            1: exaggerate
+            '0': typical
+            '1': exaggerate
     - name: illumination
       dtype:
         class_label:
           names:
-            0: normal
-            1: 'exaggerate '
+            '0': normal
+            '1': 'exaggerate '
     - name: occlusion
       dtype:
         class_label:
           names:
-            0: 'no'
-            1: partial
-            2: heavy
+            '0': 'no'
+            '1': partial
+            '2': heavy
     - name: pose
       dtype:
         class_label:
           names:
-            0: typical
-            1: atypical
+            '0': typical
+            '1': atypical
     - name: invalid
       dtype: bool
   splits:
